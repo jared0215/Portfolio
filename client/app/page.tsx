@@ -25,7 +25,7 @@ export default function Home() {
 
       <main className={'px-10 bg-[#FFFCF2] ${roboto.className} md:px-20 lg:px-40' }>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-12 flex justify-between'>
+          <nav className='py-14 mb-12 flex justify-between'>
             <h1 id="typewriter" className='text-[#403D39] text-lg '>Made by Jared Campos</h1>
             <ul className='flex items-center'>
               <li>
@@ -37,10 +37,9 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className='text-center'>
+          <div className='text-center pt-10'>
             <TypewriterEffect text="Hi, I'm Jared Campos" speed={150} />
-            <span id="cursor" className="font-mono">|</span>
-            <h4 className='text-[#403D39] text-2xl font-medium mb-4 md:text-4xl'>Software Developer</h4>
+            <h4 className='text-[#403D39] text-2xl font-medium my-8 md:text-4xl'>Software Developer</h4>
             <p className='text-[#403D39] max-w-3xl mx-auto'>
               As a recent graduate from
               Coding Dojo's Software Development program, 

@@ -2,18 +2,23 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
 
-type TypewriterEffectProps = {
+// Typewriter effect
+
+type TypewriterEffectProps = { // Typewriter effect properties
     text: string;
     speed: number;
 };
 
-const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, speed }) => {
-    const [index, setIndex] = useState(0);
+const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, speed }) => { //  Typewriter effect component
+    const [index, setIndex] = useState(0); //  Typewriter effect initial state
     
     useEffect(() => {
+        // NodeJS.Timeout is used to create a timer that will run the effect after the specified delay
         let timer: NodeJS.Timeout;
 
-        timer = setInterval(() => {
+        // Start the timer
+        timer = setInterval(() => { 
+            // Update the state every 100 milliseconds
             setIndex((index) => index + 1);
         }, speed);
 
