@@ -61,7 +61,7 @@ export default function Home() {
 
           {/* About Me */}  
           <div className='lg:flex gap-10'>
-            <div className='shadow-xl my-10 p-10 rounded-3xl flex-1'>
+            <div className='shadow-xl my-10 p-10 rounded-3xl flex-1 hover:scale-110 ease-in duration-300'>
               <FaChild className='text-[#35844F] text-4xl mx-auto' />
               <h3 className='text-[#403D39] text-2xl font-bold my-4 text-center'>About me</h3>
               <p className='text-[#403D39] max-w-3xl'>
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
 
             {/* Technical Skills */}
-            <div className='shadow-xl my-10 p-10 rounded-3xl flex-1'>
+            <div className='shadow-xl my-10 p-10 rounded-3xl flex-1 hover:scale-110 ease-in duration-300'>
               <FaCode className='text-[#35844F] text-4xl mx-auto' />
               <h3 className='text-[#403D39] text-2xl font-bold my-4 text-center'>Technical Skills</h3>
               <div className='grid grid-cols-2 gap-4'>
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
 
             {/* Github Projects */}
-            <div className='shadow-xl my-10 p-10 rounded-3xl flex-1'>
+            <div className='shadow-xl my-10 p-10 rounded-3xl flex-1 hover:scale-110 ease-in duration-300'>
               <FaProjectDiagram className='text-[#35844F] text-4xl mx-auto' />
               <h3 className='text-[#403D39] text-2xl font-bold my-4 text-center'>Github Projects</h3>
               <ul className='text-[#403D39] text-center'>
