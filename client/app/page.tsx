@@ -4,9 +4,9 @@ import { Roboto_Mono } from 'next/font/google';
 import Image from 'next/image';
 import TypewriterEffect from './TypewriterEffect';
 
-const instagramIcon = require('../public/instagram.svg');
-const linkedinIcon = require('../public/linkedin.svg');
-const jared = require('../public/Jared.png');
+import instagramIcon from '../public/instagram.svg';
+import linkedinIcon from '../public/linkedin.svg';
+import jared from '../public/Jared.png';
 
 const roboto = Roboto_Mono({
   subsets: ['latin'],
@@ -23,7 +23,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className={'px-10 bg-[#FFFCF2] ${roboto.className} md:px-20 lg:px-40' }>
+      <main className={`px-10 bg-[#FFFCF2] ${roboto.className} md:px-20 lg:px-40`}>
         <section className='min-h-screen'>
           <nav className='py-14 mb-12 flex justify-between'>
             <h1 id="typewriter" className='text-[#403D39] text-lg '>Made by Jared Campos</h1>
