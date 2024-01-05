@@ -41,13 +41,13 @@ export default function Home() {
           </nav>
 
           <div className='text-center pt-10'>
-            <TypewriterEffect text="Hi, I'm Jared Campos" speed={150} />
+            <TypewriterEffect text="Hi, I&apos;m Jared Campos" speed={150} />
             <h4 className='text-[#403D39] text-2xl font-medium my-8 md:text-4xl'>Software Developer</h4>
             <p className='text-[#403D39] max-w-3xl mx-auto'>
               As a recent graduate from
-              Coding Dojo's Software Development program, 
-              I'm embarking on an exciting journey to forge my career.
-              Join me as I delve into what I've learned
+              Coding Dojo&apos;s Software Development program, 
+              I&apos;m embarking on an exciting journey to forge my career.
+              Join me as I delve into what I&apos;ve learned
               as I take my first steps in the vibrant world of technology!
             </p>
             <div className='flex justify-center my-10'>
